@@ -861,4 +861,7 @@
   <!-- Paranoid Android additions -->
   <include name="manifests/aospa.xml"/>
 
+  <!-- Pantech Unofficial device additions -->
+  <include name="manifests/pantech.xml"/>
+  
 </manifest>
