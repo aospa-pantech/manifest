@@ -3,6 +3,11 @@
 
   <!-- WIP -->
   <!-- Manifest -->
-  <project path="manifest" name="AOSPA/manifest" remote="github" groups="pantech" />
+  <project path="manifest" name="aospa-pantech/manifest" remote="github" groups="pantech" />
 
+  <!-- Vendor -->
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <project path="vendor/pa" name="aospa-pantech/android_vendor_pa" remote="github" groups="pantech" >
+    <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
 </manifest>
