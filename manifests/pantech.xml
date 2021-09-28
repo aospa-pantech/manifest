@@ -3,22 +3,13 @@
 
   <!-- WIP -->
   <!-- Manifest -->
-<<<<<<< HEAD
-=======
   <remote  name="github"
            fetch="https://github.com/" />
->>>>>>> 3c5ebb5... Support Pantech 8974 devices [1]
-
   <!-- Vendor -->
   <project path="vendor/pa" name="aospa-pantech/android_vendor_pa" remote="github" revision="quartz" >
     <copyfile src="build.sh" dest="rom-build.sh" />
-
-  <remove-project name="platform/hardware/ril" />
-  <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-17.1" >
-  <project path="hardware/ril" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-17.1-caf" >
-
-  </project>
+  </project?>
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-17.1" />
-  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-17.1-caf" />
+  <project path="hardware/ril" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-17.1-caf" />
 </manifest>
