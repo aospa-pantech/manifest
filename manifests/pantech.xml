@@ -8,7 +8,7 @@
   <!-- Vendor -->
   <project path="vendor/pa" name="aospa-pantech/android_vendor_pa" remote="github" revision="quartz" >
     <copyfile src="build.sh" dest="rom-build.sh" />
-  </project?>
+  </project>
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-17.1" />
   <project path="hardware/ril" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-17.1-caf" />
