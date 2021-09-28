@@ -863,5 +863,5 @@
 
   <!-- Pantech Unofficial device additions -->
   <include name="manifests/pantech.xml"/>
-  
+
 </manifest>
