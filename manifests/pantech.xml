@@ -3,8 +3,6 @@
 
   <!-- WIP -->
   <!-- Manifest -->
-  <remote  name="github"
-           fetch="https://github.com/" />
   <!-- Vendor -->
   <project path="vendor/pa" name="aospa-pantech/android_vendor_pa" remote="github" revision="quartz" >
     <copyfile src="build.sh" dest="rom-build.sh" />
