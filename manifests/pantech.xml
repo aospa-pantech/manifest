@@ -10,4 +10,5 @@
   </project>
   <remove-project name="platform/hardware/ril" />
   <project path="hardware/ril" name="LineageOS/android_hardware_ril" remote="github" revision="lineage-17.1" />
+  <project path="hardware/qcom/bt" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="lineage-17.1-caf" />
 </manifest>
